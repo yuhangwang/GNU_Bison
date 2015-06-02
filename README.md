@@ -23,7 +23,7 @@ wget http://ftp.gnu.org/gnu/bison/bison-3.0.4.tar.gz
 tar xvf bison-3.0.4.tar.gz
 mkdir build_bison-3.0.4
 cd build_bison-3.0.4
-../bison-3.0.4/configure --prefix=/home/steven/install/bison/3.0.4
+../bison-3.0.4/configure --prefix=/home/steven/install/bison/3.0.4 --enable-threads=posix
 make -j16
 make check -j16 | tee QualityVerification.txt
 make install
