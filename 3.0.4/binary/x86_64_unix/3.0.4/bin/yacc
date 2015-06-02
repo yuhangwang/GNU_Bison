@@ -1,0 +1,2 @@
+#! /bin/sh
+exec '/Scr/scr-test-steven/install/bison/3.0.4/bin/bison' -y "$@"
